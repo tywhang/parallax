@@ -1,7 +1,7 @@
 /* Global */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #8a8683;
@@ -73,9 +73,9 @@ a:visited {
 .slide{
 	background-attachment: fixed;
 	width:100%;
-	height:auto;
+	height: 350px;
 	position: relative;
-	padding:140px 0;
+	padding: 140px 0;
 }
 
 
@@ -83,18 +83,20 @@ a:visited {
 /* Slide 1 */ 
 
 #slide1{
+	margin-top: 70px;
 	background-color:#ffffff;
+	background-image:url("../images/record.jpg");
+	background-size: 100%;
+	color: #FFF;
 }
 #slide1 h1 {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#8a8683;
 	font-weight: 700;
 }
 #slide1 h2 {
 	font-size: 2em;
-	color: #8a8683;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
@@ -106,7 +108,8 @@ a:visited {
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/footprints.png');
+	background-image: url(../images/fruit.jpg);
+	background-size: 100%;
 	background-color:#f68f67;
 	color:#ffffff;
 }
@@ -147,34 +150,23 @@ a:visited {
 	padding-bottom:20px;
 	font-weight: 400;
 }
-#test{
-	background-color:#bde2df;
-	color:#ffffff;
-	text-align:center;
-	font-size: 2em;
-	font-weight: 400;
-}
-
-
 
 
 /* Slide 4 */
 
 #slide4{
-	background-image:url('../images/sunglasses.png');
-	background-color:#8a8683;
-	color:#ffffff;
+	background-image: url('../images/abstract.jpg');
+	background-size: 100%;
+	color: #000;
 }
 #slide4 h1 {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#ffffff;
 	font-weight: 700;
 }
 #slide4 h2 {
 	font-size: 2em;
-	color: #ffffff;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
